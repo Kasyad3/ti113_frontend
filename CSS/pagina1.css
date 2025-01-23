@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+table{
+    border: 1;
+}
+body{
+    font-family: "Varela Round", serif;
+
+}
+
+.addnew{
+    background-color: aquamarine;
+    border-radius: 16px;
+    border: 0;
+}
+
+#trash {
+    color: red;
+}
+
+#pen {
+    color: yellow;
+}

@@ -1,0 +1,38 @@
+table{
+    border: 1;
+}
+
+th{
+    border: 1;
+    text-align: left;
+}
+
+td{
+    border: 1;
+}
+
+#titulo{
+    background-color: rgb(7, 186, 218);
+}
+
+#gear{
+    color: blue;
+}
+
+#block{
+    color: red;
+}
+
+button{
+    border-radius: 0%;
+}
+
+    i.green_circle {
+        color: green;
+    }
+    i.yellow_circle {
+        color: yellow;
+    }
+    i.red_circle {
+        color: red;
+    }
