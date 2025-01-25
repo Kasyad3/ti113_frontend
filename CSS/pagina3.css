@@ -1,0 +1,30 @@
+#tabela1{
+    background-color: grey;
+    border: 0;
+}
+
+#tabela2{
+    background-color: rgb(41, 39, 39);
+    color: aliceblue;
+}
+
+#img{
+    width: 20;
+    height: 20;
+    background-color: aliceblue;
+}
+
+#tabela3{
+    color: aliceblue;
+    
+}
+
+td{
+    background-color: rgb(41, 39, 39);
+}
+
+#tabela4{
+    background-color: rgb(41, 39, 39);
+    color: aliceblue;
+}
+
