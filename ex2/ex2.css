@@ -1,0 +1,36 @@
+@media(max-width: 768px) {
+
+
+    section{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+@media(min-width: 768px) {
+
+
+    section {
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+}
+
+@media(min-width: 1024px) {
+
+
+    section {
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+    
+    }
+}
+
+img{
+    width: 100%;
+}
+
+
