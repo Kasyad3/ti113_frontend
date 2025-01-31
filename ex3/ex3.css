@@ -1,0 +1,143 @@
+@import url(../CSS/reset.css);
+
+@media(max-width: 768px) {
+    header {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: column;
+    }
+
+    section {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    article {
+        width: 100%;
+        color: white;
+        background-color: red;
+        border: 1px;
+        border-color: rgb(0, 0, 0);
+        margin: 10px;
+    }
+}
+
+@media(min-width: 768px) {
+    header {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+    }
+
+    section {
+        display: flex;
+        flex-direction: row;
+
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+}
+
+@media(min-width: 992px) {
+    header {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+
+    }
+
+    section {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
+
+    }
+
+    article {
+        width: 49vw;
+        color: white;
+        background-color: red;
+        border: 1px;
+        border-color: rgb(0, 0, 0);
+    
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+
+    }
+}
+
+header {
+    color: white;
+    background-color: red;
+    border: 10px;
+    border-color: white;
+    
+}
+
+
+footer {
+   
+    text-align: center;
+    color: white;
+    background-color: red;
+    border: 10px;
+    border-color: white;
+    
+}
+
+img {
+    width: 100%;
+}
+
+section {
+    color: white;
+    background-color: red;
+    border: 10px;
+    border-color: white;
+    text-align: center;
+    margin: 10px;
+    
+}
+
+article {
+
+    color: white;
+    background-color: red;
+    border: 1px;
+    border-color: rgb(0, 0, 0);
+
+}
+
+body{
+    background-color: black;
+}
+
+a{
+    background-color: black;
+    margin: 10px;
+    border-radius: 16%;
+}
