@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fixação</title>
+    <link rel="stylesheet" href="../CSS/fixacao.css">
+</head>
+
+<!-- Crie uma tela de cadastro onde devem ser lidos
+os logins, emails, senhas de até 50 registros numa lista
+no localStorage. Ao final da leitura, deve-se exibir os
+registros do login e email salvos em uma tabela
+zebrada html. Considere os seguintes critérios:
+
+• Considere que o usuário não pode informar conteúdo vazio.
+
+• Usuário válido com palavras e não pode ser repetidas
+inclusões.
+
+• É cadastrado somente senha de 8 caracteres com pelo
+menos 2 números.
+
+• Ao exibir no final todos os campos ficarão bloqueados e o
+botão “REGISTER” é alterado o texto para “UNLOCKER”.
+
+• Leve-se em consideração o layout ao lado. -->
+
+<body>
+    <main>
+        <section class="img">
+            <img src="https://i.pinimg.com/736x/e0/03/1c/e0031c0baf6d7b1d022b5cf13089db70.jpg" alt="">
+        </section>
+
+        <section class="form">
+            <form action="#">
+                <h1>Register</h1>
+                <label for="txtUserName"></label>
+                <input placeholder="Username" type="text" name="username" id="txtUserName" required>
+                <label for="txtEmail"></label>
+                <input placeholder="Email andress" type="text" name="email" id="txtEmail" required>
+
+                <label for="txtPassword"></label>
+                <input placeholder="Password" type="password" name="password" id="txtPassword" required>
+                <label for="txtUserName"></label>
+                <input placeholder="Confirm password" type="password" name="password" id="txtPassword" required>
+
+            </form>
+
+            <div class="btns">
+
+                <button class="register">register</button>
+                <button class="signin">Sign In</button>
+                
+                <button type="button" class="signgoogle">SIGN UP WITH GOOGLE</button>
+                
+                <button type="button" class="signfacebook">SIGN UP WITH FACEBOOK</button>
+            </div>
+        </section>
+    </main>
+</body>
+<script src="../javascript/fixacao.js"></script>
+</html>

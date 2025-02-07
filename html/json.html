@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entendendo JSON e Storages</title>
+</head>
+
+<body>
+
+    <form action="#" method="get">
+        <label for="txtNome">Nome:</label>
+        <input type="text" name="txtNome" id="txtNome"> <br>
+
+        <label for="txtSobreNome">SobreNome:</label>
+        <input type="text" name="txtSobreNome" id="txtSobreNome"> <br>
+
+        <label for="txtCPF">CPF:</label>
+        <input type="text" name="txtCPF" id="txtCPF"> <br>
+
+        <label for="txtDataNascimento">Data de Nascimento:</label>
+        <input type="text" name="txtDataNascimento" id="txtDataNascimento"> <br>
+
+        <button id="btnCadastrar" type="button">Cadastrar</button>
+        &nbsp;&nbsp;
+        <button id="btnApagar" type="button">Apagar</button>
+        <!-- <button id="btnPersistir" type="button">Persistir</button> -->
+
+    </form>
+
+    <table border="1" cellspacing="0" cellpadding="5" id="tabPessoas">
+        <tr>
+            <th>Nome</th>
+            <th>SobreNome</th>
+            <th>CPF</th>
+            <th>Data De Nascimento</th>
+        </tr>
+    </table>
+
+    <script src="../javascript/json.js"></script>
+</body>
+
+</html>
